@@ -36,7 +36,7 @@ export default class TabSelector extends React.PureComponent{
                     ))}
                 </ul>
             </div>
-        )
+        );
     }
 }
 
@@ -54,7 +54,7 @@ export class TabSelectorSample extends React.PureComponent{
     render(){
         return (
             <div>
-                Select color: 
+                <h3>Select color: </h3>
                 <TabSelector 
                     options={options} 
                     value={this.state.color}
