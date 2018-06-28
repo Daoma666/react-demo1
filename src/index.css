@@ -1,0 +1,17 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+input{
+  padding: 7px;
+  outline: none;
+}
+button{
+  color: #fff;
+  background-color: #F60;
+  padding: 8px 15px;
+  border: none;
+  cursor: pointer;
+  outline: none;
+}
