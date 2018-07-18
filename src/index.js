@@ -7,9 +7,10 @@ import Clock from './c4/Clock';
 import SnapshotSample from './c4/SnapshotSample';
 import {AdvancedTabSelectorSample} from './c6/AdvancedTabSelector';
 import LocaleSample from './c7/LocaleSample';
+import PureRedux from './c11/PureRedux';
 import './index.css';
 
 
 
-ReactDOM.render(<LocaleSample />, document.getElementById('root'));
+ReactDOM.render(<PureRedux />, document.getElementById('root'));
 
