@@ -9,8 +9,8 @@ import {AdvancedTabSelectorSample} from './c6/AdvancedTabSelector';
 import LocaleSample from './c7/LocaleSample';
 import PureRedux from './c11/PureRedux';
 import './index.css';
+import Wave from './others/wave';
 
 
-
-ReactDOM.render(<PureRedux />, document.getElementById('root'));
+ReactDOM.render(<Wave />, document.getElementById('root'));
 
