@@ -8,9 +8,10 @@ import SnapshotSample from './c4/SnapshotSample';
 import {AdvancedTabSelectorSample} from './c6/AdvancedTabSelector';
 import LocaleSample from './c7/LocaleSample';
 import PureRedux from './c11/PureRedux';
+import CounterSample from './c12/Counter';
 import './index.css';
 import Wave from './others/wave';
 
 
-ReactDOM.render(<Wave />, document.getElementById('root'));
+ReactDOM.render(<CounterSample/>, document.getElementById('root'));
 
